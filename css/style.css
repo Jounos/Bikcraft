@@ -150,3 +150,26 @@ p{
 .call p{
     margin-bottom:20px;
 }
+/*Protifólio*/
+.portifolio{
+    width: 100%;
+    background: black;
+    padding: 40px 0; 
+}
+.portifolio .subtitulo{
+    color:#fec63e;
+}
+.portifolio .subtitulo::after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #fec63e;
+    margin: 2px auto;
+}
+.portifolio_lista li:last-child{
+    margin-top: 20px;
+}
+.portifolio p{
+    color: white;
+}
